@@ -1,0 +1,9 @@
+.env
+.idea/
+bloom_cli/__pycache__/__init__.cpython-38.pyc
+bloom_cli/__pycache__/main.cpython-38.pyc
+bloom_log.jsonl
+dist/
+venv/
+
+poetry.lock
