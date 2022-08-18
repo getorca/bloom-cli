@@ -2,7 +2,7 @@
 
 A simple CLI to play with the large Language model [BLOOM](https://huggingface.co/bigscience/bloom) through the hugging face inference API. Bloom is a text completion model and can be prompeted to completed text. Having been trained on 176 billion parameters, it is one of the most advanced models of it's type. 
 
-![hippo](https://raw.githubusercontent.com/getorca/.gif)
+![hippo](https://raw.githubusercontent.com/getorca/bloom-cli/master/docs/bloom-cli-demo.gif)
 
 
 This CLI makes it easy to experiment, but has no particular use case, other than making experimentation easier.
@@ -27,15 +27,17 @@ Hugging face has currently and temporarily disabled long input prompts for the h
 - a [hugging face api token](https://huggingface.co/settings/tokens)
 
 ### From Repo
-clone the repo `git clone ...`
+clone the repo `git clone git@github.com:getorca/bloom-cli.git`
 
 change to the directory `cd bloom-cli`
 
-create a python virtual environment  `python3 -m venv venv
+create a python virtual environment  `python3 -m venv venv`
 
 activate the venv `source venv/bin/activate`
 
-install with poetry `install poetry`
+install poetry `pip install poetry`
+
+install with poetry `poetry install`
 
 ### From PyPi
 ...coming soon
